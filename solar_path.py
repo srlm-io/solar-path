@@ -1,6 +1,7 @@
 #!/usr/bin/python3.6
 
 
+
 import math
 from datetime import datetime
 
@@ -48,7 +49,7 @@ def calculateDistance(elevation):
     b = deg_15_pixels - m * 15
 
     return m * elevation + b
-
+Image
 
 def calculateX(distance_pixel, azimuth):
     return math.cos((180 - azimuth) * math.pi / 180) * distance_pixel
